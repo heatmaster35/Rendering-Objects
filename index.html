@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- // Starter code from: HelloTriangle.js (c) 2012 matsuda
+//*******************************
+//*Name: Leo Gomez              *
+//*Login: legomez               *
+//*SID: 1360609                 *
+//*Lab#: 2                      *
+//*file: index.html             *
+//*class: CMPS - 160L           *
+//*description:                 *
+//*takes in a coor and poly file*
+//*so it can render an object.  *
+//*******************************
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rendering Object</title>
+	</head>
+
+	<body onload="main()">
+		<canvas id="webgl" width="600" height="400">
+			Your browser does not support HTML5
+		</canvas>
+		<br />
+		<i>Pick Files below for Rendering</i>
+		<script src="lib/webgl-utils.js"></script>
+		<script src="lib/webgl-debug.js"></script>
+		<script src="lib/cuon-utils.js"></script>
+		<script src="lib/cuon-matrix.js"></script>
+		<script src="RenderObject.js"></script><br />
+		<text>Pick a .coor file----></text>
+		<input type="file" id="infile1"></input><br />
+		<text>Pick a .poly file----></text>
+		<input type="file" id="infile2"></input>
+	</body>
+</html>
